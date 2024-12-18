@@ -1,0 +1,19 @@
+{
+    "name": "blog-preview-card-main",
+    "version": "1.0.0",
+    "description": "A blog card component.",
+    "source": "./src/index.html",
+    "private": "true",
+    "scripts": {
+        "start": "parcel",
+        "build": "parcel build"
+    },
+    "keywords": [],
+    "author": "xianort",
+    "license": "MIT",
+    "devDependencies": {
+        "parcel": "^2.13.3",
+        "postcss": "^8.4.49",
+        "tailwindcss": "^3.4.17"
+    }
+}
