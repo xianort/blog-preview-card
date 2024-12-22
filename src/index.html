@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="bg-yellow font-medium text-grey-500">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -17,9 +17,46 @@
         <link rel="stylesheet" href="./css/main.css" />
     </head>
     <body>
-        Learning Published 21 Dec 2023 HTML & CSS foundations These languages
-        are the backbone of every website, defining structure, content, and
-        presentation. Greg Hooper
+        <main class="min-h-dvh p-6 flex items-center justify-center">
+            <article
+                class="bg-white p-6 max-w-[384px] space-y-6 rounded-lg shadow outline outline-1 outline-grey-950 animate-intro motion-reduce:animate-none"
+            >
+                <img
+                    src="../assets/images/illustration-article.svg"
+                    alt=""
+                    class="rounded"
+                />
+                <div class="space-y-3">
+                    <p
+                        class="inline-block rounded-sm font-extrabold text-sm text-grey-950 bg-yellow py-1 px-3"
+                    >
+                        Learning
+                    </p>
+                    <p class="text-sm text-grey-950">
+                        Published <time datetime="2023-12-21">21 Dec 2023</time>
+                    </p>
+                    <h1
+                        class="font-extrabold text-2xl text-grey-950 hover:text-yellow transition-[color] duration-100 motion-reduce:transition-none"
+                    >
+                        HTML & CSS foundations
+                    </h1>
+                    <p>
+                        These languages are the backbone of every website,
+                        defining structure, content, and presentation.
+                    </p>
+                </div>
+                <div class="flex items-center space-x-3">
+                    <img
+                        src="../assets/images/image-avatar.webp"
+                        alt=""
+                        class="size-8"
+                    />
+                    <p class="font-extrabold text-sm text-grey-950">
+                        Greg Hooper
+                    </p>
+                </div>
+            </article>
+        </main>
 
         <footer class="sr-only">
             <p>
@@ -29,7 +66,9 @@
                     target="_blank"
                     >Frontend Mentor</a
                 >. Coded by
-                <a href="https://www.frontendmentor.io/profile/xianort"
+                <a
+                    href="https://www.frontendmentor.io/profile/xianort"
+                    target="_blank"
                     >Xianort</a
                 >.
             </p>
