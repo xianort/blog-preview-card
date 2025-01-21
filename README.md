@@ -15,6 +15,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
     - [What I learned](#what-i-learned)
     - [Continued development](#continued-development)
   - [Author](#author)
+  - [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -53,3 +54,7 @@ Improve on web basics
 ## Author
 
 - Frontend Mentor - [@xianort](https://www.frontendmentor.io/profile/xianort)
+
+## Acknowledgments
+
+Thanks to (@grace-snow)[https://www.frontendmentor.io/profile/grace-snow] for pointing out the mistake of not adding a link to this component, not considering where this component would be used, and using `px` unit instead of `rem` for `max-width` property.
